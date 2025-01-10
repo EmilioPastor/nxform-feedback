@@ -10,9 +10,9 @@ export async function realAction1(prevState, formData) {
 
     // Unas veces devolvemos mensaje de error y otras mensaje de success
     if (Math.random() > 0.5)
-        return { error: 'Error en action 1' }
+        return { error: 'CAGADA 1' }
     else
-        return { success: 'Éxito en action 1' }
+        return { success: 'ACIERTO 1' }
 }
 
 
@@ -24,9 +24,9 @@ export async function realAction2(prevState, formData) {
 
     // Unas veces devolvemos mensaje de error y otras mensaje de success
     if (Math.random() > 0.5)
-        return { error: 'Error en action 2' }
+        return { error: 'CAGADA 2' }
     else
-        return { success: 'Éxito en action 2' }
+        return { success: 'ACIERTO 2' }
 }
 
 
@@ -38,9 +38,9 @@ export async function realAction3(prevState, formData) {
 
     // Unas veces devolvemos mensaje de error y otras mensaje de success
     if (Math.random() > 0.5)
-        return { error: 'Error en action 3' }
+        return { error: 'CAGADA 3' }
     else
-        return { success: 'Éxito en action 3' }
+        return { success: 'ACIERTO 3' }
 }
 
 
